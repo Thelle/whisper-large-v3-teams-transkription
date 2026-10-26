@@ -1,0 +1,44 @@
+# Lokale miljøer og caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+modelcache/
+models/
+
+# Interviewdata og afledte transskriptioner
+data/
+input/
+output/
+outputs/
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.webm
+*.vtt
+*.srt
+*.doc
+*.docx
+*.pdf
+*.json
+*.jsonl
+*.txt
+*.html
+
+# Modelvægte
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Adgangsoplysninger
+.env
+.env.*
+token
+tokens
+*.key
+*.pem
